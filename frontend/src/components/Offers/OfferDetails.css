@@ -1,0 +1,101 @@
+.tour__content img{
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    }
+.tour__info{
+    border-radius: 0.5rem;
+    border: 1px solid rgb(229,231,235);
+   padding: 2rem;
+}
+.tour__info h2{
+   font-size: 1.5rem;
+}
+.tour__info span{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-style: 1rem;
+}
+.tour__info span i{
+ font-size: 1.1rem;
+}
+.tour__extra-details{
+display: flex;
+align-items: center;
+column-gap: 2.7rem;
+margin-top: 1rem;
+margin-bottom: 2.5rem;
+}
+.tour__info p{
+    line-height: 30px;
+    font-size: 1rem;
+}
+.booking{
+    padding: 2rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(229,231,235);
+    position: sticky;
+    top: 80px;
+    
+}
+.booking__top h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.booking__top h3 span {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.booking__top span {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.booking__top span i {
+    color: blue;
+}
+.booking__top  {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(229,231,235);
+}
+.booking__form  {
+    padding-top: 2rem; 
+}
+.booking__form h5 {
+    margin-bottom: 1rem;
+}
+
+.booking__form input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid rgb(229,231,235);
+
+}
+.booking__form input:focus {
+    outline: none;
+  
+}
+.booking__info-form{
+    padding: 1rem;
+    border: 1px solid rgb(229,231,235);
+}
+.booking__bottom li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.booking__bottom li h5,.booking__bottom li span {
+font-size: 1rem;
+font-weight: 500;
+}
+.booking__bottom {
+  margin-top: 1rem;
+}
+
+.total h5, .total span {
+    font-weight: 700;
+    font-size: 1.1rem;
+}

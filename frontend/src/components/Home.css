@@ -1,0 +1,28 @@
+.hero__content img {
+  width: 50%;
+}
+.hero__content h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.hero__content {
+  margin-bottom: 5rem;
+}
+.hero__content h1 .highlight {
+  color: blue;
+}
+.hero__content {
+  padding-top: 3.5rem;
+}
+.hero__img-box img {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+  border: 1px solid whitesmoke;
+  object-fit: cover;
+}
+.hero__img-box {
+  padding-top: 2rem;
+}

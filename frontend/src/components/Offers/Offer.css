@@ -1,0 +1,53 @@
+.tour__img img{
+width: 100%;
+border-radius: 5px 5px 0 0;
+}
+.card{
+    border: none !important;
+    box-shadow: rgba(0,0,0, 0.2) 0px 18px 50px -10px;
+}
+.tour__img{
+    position: relative;
+}
+.card__top span i{
+    color: blue;
+}
+.tour__rating{
+    font-size: .9rem;
+  color: blue;
+}
+.tour__location{
+    color: blue;
+    font-weight: 500;
+}
+.tour__rating i .tour__location i{
+    font-size: 1rem;
+}
+.tour__title{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.tour__title a{
+   text-decoration: none;
+   color: black;
+   transition: .3s;
+}
+
+.tour__title a:hover{
+    color:blue;
+ }
+ .card__bottom h6{
+    color: blue;
+    font-size: 1rem;
+    font-weight: 700;
+ }
+ .booking__btn{
+    background: rgb(138, 220, 245);
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    
+ }
+ .booking__btn a{
+   font-size: .9rem;
+ }
